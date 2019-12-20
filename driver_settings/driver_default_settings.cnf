@@ -1,0 +1,515 @@
+[afp-ds and black and white DEFAULT]
+#General Keywords
+insert_version			= 1
+intro_nop_size			= 0 
+max_sf_size 			=
+resources_base_name 	=
+afp_line_thickness		= O
+afp_polygon_thickness	= O
+box_width_factor		= 100
+goca_gbar_flagmark		= 0xc0
+#Color Keywords
+color_mapping_table 	=
+cp_afp_nop				= 0
+cp_def_name 			=
+################################
+embedded_coded_path		=
+#################################
+#######################################
+tle_codepage			=
+#######################################
+transcode_map 			=
+transcode_mode 			=
+afp_psg_compat 			= 0
+psg_base_name 			=
+#Resolution Keywords
+max_image_resolution 	=
+phy_resolution_x		= 300
+phy_resolution_y		= 300
+resolution				= 300
+#Embedded Stream Keywords
+###############################
+embedded_charset_path	=
+###############################
+#######################################
+embedded_codepage_path	=
+#######################################
+embedded_formdef_compact= 1
+embedded_formdef_name 	=
+embedded_formdef_path 	=
+embedded_overlay_path 	=
+embedded_pag_path 		=
+embedded_resources_path =
+embedding_debug			= 0
+embedding_enable		= 0
+multipage_container		= 1
+#Font and Text Keywords
+autohint_t1				= 1
+debug_font_type			= 0
+#####################################
+#Only one or the other will be used
+fd						= afp.fnt
+font_file_descriptor	= afp.fnt
+#####################################
+font_scaling			= font_size
+font_list 				=
+outline_font_enable		= 0
+text_justification		= 1
+ttf_font_fixing			= 1
+#Index Keywords
+index_mode				= 0
+use_document_index 		=
+invert_triplet_80		= 0
+#Performance Keywords
+disable_clipping		= 0
+disable_mask			= 0
+disable_scaling			= 0
+disable_skewing			= 0
+element_cache			= text
+enable_clipping			= 1
+enable_mask				= 1
+enable_scaling			= 1
+enable_skewing			= 1
+goca_enable				= 0
+goca_overlap			= c
+ioca_compression 		=
+#####################################
+image_container			=
+####################################
+merge_overlay			= 1
+res_header_size			=
+res_mode				= 1
+uncompress_lsbmsb_tiff 	=
+#Printer Keywords
+medium_map_for_bac 		=
+printer 				=
+#Margin Keywords
+phy_tech_left_marin 	=
+phy_tech_top_margin 	=
+#IN/OUT bins
+hib1 					=
+hib2 					=
+hib3 					=
+hob1 					=
+hob2 					=
+#VPF element sorting
+unsorted_vpf_page		= 0
+$$AFP IPS 				=
+$$AFP IPO 				=
+$$AFP MEDIUMMAP 		=
+$$AFP COMMENT 			=
+$$AFP COMMENT_DOC 		=
+$$AFP TOP_NOP 			=
+$$AFP EPS FILE 			=
+$$AFP PDF FILE			= media
+
+
+[afp-ds color protocol DEFAULT]
+barcode_format			= 2
+color					= 0
+###################################
+color_space=cmyk
+discard_white_vectors	= 1
+fs45_compression = 
+highlight_color_enable	= 1
+image_color_mode 		=
+image_container			= 0
+image_dithering_method 	=
+image_threshold 		=
+intensity_fct			= black
+ioca_function_set		= 11
+oblique_color_mode 		=
+polygon_color_mode 		=
+rule_color_mode 		=
+sector_color_mode 		=
+text_color_mode 		=
+[gif format]
+#####################################
+#Only one or the other will be used
+fd						= afp.fnt
+font_file_descriptor	= afp.fnt
+#####################################
+outline_font_enable		= 0
+output_format 			=
+printer 				=
+resolution_x 			=
+resolution_y 			=
+phy_tech_left_marin 	=
+phy_tech_top_margin 	=
+interchar_threshold 	=
+text_justification		= 1
+unsorted_vpf_page		= 0
+
+
+[html DEFAULT]
+#General Keywords
+printer 				=
+phy_resolution_x		= 96
+unsorted_vpf_page		= 0
+#Fonts and Text Keywords
+#####################################
+#Only one or the other will be used
+fd						= afp.fnt
+font_file_descriptor	= afp.fnt
+#####################################
+typo_ttf_adaptation		= 1.13
+text_justification		= 1
+#Performance Keywords
+file_segmentation		= 0
+#Resources Keywords
+fix_ressources_url 		=
+dyn_ressources_path 	=
+dyn_ressources_url 		=
+#Composition Statement Keywords
+show_doc				= 0
+show_index				= 0
+split_on_doc			= 0
+
+[ijpds DEFAULT]
+#General Keywords
+ijq						= 0
+printer 				=
+phy_fnt_compression		= RLEV32
+#Color Keywords
+black_lut 				=
+color_mapping_table 	=
+cyan_lut 				=
+full_color 				=
+magenta_lut 			=
+mode_color_recto 		=
+mode_color_verso 		=
+opacity 				=
+recto_text_trigger_mode =
+verso_text_trigger_mode = 
+yellow_lut				=
+#Font and Text Keywords
+#####################################
+#Only one or the other will be used
+fd						= afp.fnt
+font_file_descriptor	= afp.fnt
+#####################################
+outline_font_enable		= 0
+count_fonts				= 0
+text_justification		= 1
+interchar_threshold 	=
+inter_word_spacing 		=
+unsorted_vpf_page		= 0
+#Resources Keywords
+extern_resource			= 0
+#Dithering Keywords
+shading_dithering_method=
+#Margins Keywords
+phy_tech_left_margin 	=
+phy_tech_top_margin		=
+#Mask and Transparency Keywords
+phy_img_compression		= 0
+#Resolution Keywords
+phy_resolution_x 		=
+phy_resolution_y 		=
+#RIP Keywords
+jc2_ripconfig 			=
+jc2_stitched 			=
+#################################
+reg_mark 				=
+reg_mark2 				=
+##################################
+rip_0 					=
+rip_1 					=
+rip_2 					=
+rip_3 					=
+#Synchronization Mark Keywords
+size_mark_x				= 60
+size_mark2_x			= 60
+size_mark_y				= 60
+size_mark2_y			= 60
+top_offset_mark			= 0
+top_offset_mark2		= 0
+left_offset_mark		= 0
+left_offset_mark2 		=
+
+[xrx protocol DEFAULT]
+#General Keywords
+carriage_control 		=
+limite					= 150
+printer 				=
+trailer_file_pattern 	=
+text_justification		= 1
+interchar_threshold 	=
+unsorted_vpf_page		= 0
+#Barcode Keywords
+barcode_format			= 2
+bc_turning 				=
+#Block Keywords
+block_len_max 			=
+block_len_size 			=
+count_coding 			=
+count_type 				=
+hdr_block_pattern 		=
+hdr_block_size 			=
+#Color Keywords
+color					= 1
+royal_catalog			= ROYAL
+green_catalog			= GREEN
+yellow_catalog			= YELLOW
+#DJDE Keywords
+djde					= DJDE
+dynamic_jsl_call		= EBCDIC
+#Printing Keywords
+driver_mode 			=
+hib1 					=
+hib2 					=
+hib3 					=
+hob1 					=
+hob2 					=
+#Fonts and Text Keywords
+autohint_t1				= 1
+autohint_tiff			= 1
+fd						= xerox.fnt
+font_file_descriptor	= xerox.fnt
+font_list 				=
+outline_font_enable		= 0
+#Header File Keywords
+hdr_file_pattern 		=
+hdr_file_size 			=
+#Header Keywords
+hdr_record_pattern 		=
+hdr_record_size 		=
+#Image Offset Keywords
+img_offset_x 			=
+img_offset_y			=
+#Margins Keywords
+phy_tech_left_marin		= pica
+phy_tech_top_margin		= pica
+#Loading Keywords
+load_fonts				= 0
+load_forms				= 0
+load_logos				= 0
+#Overlay Keywords
+merge_overlay			= 1
+overlay_format			= FRM
+offset_pcc				= 0
+#Padding Keywords
+padding_char			= 64
+#Record Keywords
+record_len_max 			=
+record_len_size 		=
+#Inline Keywords
+volatil					= P
+volatil_forms			= P
+#Compositions Statements
+$$XRX FILE_HEADER		= A
+$$XRX NOTE 				=
+
+
+[HP-PCL protocol DEFAULT]
+    autohint_t1             = 1
+    autohint_ttf            = 1
+    fd                      = hp.fnt
+    font_file_descriptor    = hp.fnt
+    image_dithering_method  = threshold
+    iso_gray_level          = 0
+    margin_mode             = 0
+    permanent_fonts_and_macros = 0
+    phy_img_compression     = deltarow
+    phy_tech_left_margin    =
+    phy_tech_top_margin     =
+    printer                 =
+    resolution              = 300
+    text_justification      = 1
+    unsorted_vpf_page       = 0
+    
+[HP-PCL color format DEFAULT]
+    pcl_5c                  = 0
+    use_lut                 = 0
+    red_or_cyan_lut         =
+    green_or_magenta_lut    =
+    blue_or_yellow_lut      =
+    barcode_format          = 2
+
+[PDF format DEFAULT]
+    ## pdf.fnt keywords
+    # If any keyword is not defined in a section, the section uses the values from the prior section.
+    SECTION                 =
+    encoding                = windows-1252 # use this keyword with Dynamic=1
+    dynamic                 = 0
+    family                  =
+    file                    =
+    load                    =
+    size                    =
+    style                   =
+    substitute              =
+    type                    =
+    
+    ## General Keywords
+    accessibility           =
+    accessid_sort           = 0
+    fd                      = hp.fnt
+    font_file_descriptor    = hp.fnt
+    outline_font_enable     = 0
+    printer                 =
+    phy_resolution_x        = 300
+    phy_resolution_y        = 300
+    scale_factor            =
+    unsorted_vpf_page       = 0
+    
+    ## Metadata Keywords
+    meta_title              =
+    meta_title_filename     = 0
+    meta_subject            =
+    meta_author             =
+    meta_keywords           =
+    meta_creator            =
+    meta_producer           =
+    
+    ## Automatic masking keywords
+    colorspaces             = RGB
+    mask_level              =
+    
+    ## Encryption keywords
+    crypt_adm_password      =
+    crypt_disable           =
+    crypt_user_password     =
+    encrypt_strength        = 40
+    
+    ## Multiple PDF output keyword
+    index_method            = 0
+    index_id_size           =
+    
+    ## Display keywords
+    orientation_used        = 0
+    turnTV                  = 1
+    
+    ## Color keywords
+    color_mapping_table     =
+    pdf_spot_color_prefix   = PANTONE#20
+    
+    ## Performance keywords
+    data_format             = high_comp
+    image_filter            =
+    linearization           = 0
+    page_tree               =
+    underline_position      = 9
+    underline_thickness     = 12
+    
+    ## Fonts and text keywords
+    cache_font_subsets      = 0
+    cmap _optimization      = 0
+    embed_fonts             = 1
+    font_ref_optimization   =
+    font_subset             =
+    text_justification      = 1
+    warning_level           = 0
+    
+    ## Masks and transparency keywords
+    phy_img_compression     = 0
+    transparency            = 0
+    
+    ## Margins keywords
+    phy_tech_top_margin     =
+    phy_tech_left_margin    =
+    
+    ## White pages
+    sup_blank_page          = 0
+    
+[PDF/A DEFAULT]
+    pdf_conformance         = colorspace=CMYK
+    iccprofile              = USWebCoatedSWOP.icc
+    icc_out_condition       = U.S. Web Coated (SWOP) v2
+    icc_out_condition_ident = CGATSTR001
+    icc_out_info            = U.S. Web Coated (SWOP) v2
+    
+
+[PostScript format DEFAULT]
+    ## General
+    fd                      = hp.fnt
+    font_file_descriptor    = hp.fnt
+    printer                 =
+    unsorted_vpf_page       = 0
+    ## Input/Output bins
+    hib1                    = # Does this need a "1" suffix?
+    hib2                    =
+    hib3                    =
+    hob1                    =
+    hob2                    =
+    
+    ## PostScript header
+    extract_prolog          =
+    prolog                  = opCmdLib
+    
+    ## Image factoring
+    no_logo_factorisation   = 0
+    
+    ## Color keywords
+    color_mapping_table     = 
+    ## Masks and transparency
+    phy_img_compression     = sefascm
+    
+    ## Resolution
+    phy_resolution_x        = 300
+    phy_resolution_y        = 300
+    
+    ## Margins
+    phy_tech_left_margin    =
+    phy_tech_top_margin     =
+    
+    ## Header
+    res_header_size         =
+    
+    ## Fonts and text
+    autohint_t1             = 1
+    autohint_ttf            = 1
+    text_justification      = 1
+    
+    ## Booklet mode
+    start_booklet           =
+    end_booklet             =
+    
+    ## Staple
+    start_staple            =
+    end_staple              =
+
+[TIFF format DEFAULT]
+    autohint_t1             = 1
+    autohint_ttf            = 1
+    printer                 =
+    choix_pattern           = CHOIX_PATTERN_OLD
+    fd                      = hp.fnt
+    font_file_descriptor    = hp.fnt
+    index_method            = 0
+    multi_pages             = YES
+    phy_img_compression     = gr3
+    phy_tech_left_margin    =
+    phy_tech_top_margin     =
+    # By default, resolutions equal to the resolution of the VPF file
+    phy_resolution_x        =
+    phy_resolution_y        =
+    special_dump            = 0
+    text_justification      = 1
+
+[VPF Sefas format DEFAULT]
+    compression             = 0
+    fd                      = hp.fnt
+    font_file_descriptor    = hp.fnt
+    include_resource        = 0
+    printer                 =
+    text_justification      = 1
+    unsorted_vpf_page       = 0
+
+[Web format DEFAULT]
+    format                  = html
+
+[Email format DEFAULT]
+    format                  = eml
+
+[SMS format DEFAULT]
+    index_id_size           = 3
+    format                  = json
+
+[IMAGE driver DEFAULT]
+    #opFileList - not a Keyword. This is a Parameter. Should this have a default?
+    image_format            =
+    image resolution        = 144
+    index_method            = 0
+    jpeg_qulaity            = 80
+
+
